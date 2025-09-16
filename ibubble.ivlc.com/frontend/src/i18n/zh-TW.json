@@ -1,0 +1,33 @@
+{
+    "account": {
+        "title": "帳號設定管理",
+        "thirdPartyLinking": "第三方帳號綁定",
+        "link": "綁定",
+        "unlink": "解除綁定",
+        "nativeAccount": "本地帳號",
+        "edit": "編輯",
+        "unbind": "解除綁定",
+        "phoneOtp": "手機 OTP",
+        "resendOtp": "重新發送 OTP",
+        "verifyOtp": "驗證 OTP",
+        "unbindOtp": "解除綁定",
+        "password": "密碼",
+        "changePassword": "變更密碼",
+        "merge": "合併帳號"
+    },
+    "common": {
+        "success": "成功",
+        "fail": "失敗"
+    },
+    "push": {
+        "title": "推播裝置設定",
+        "selectRole": "選擇角色",
+        "selectLanguage": "選擇語言",
+        "all": "全部"
+    },
+    "roles": {
+        "teacher": "教師",
+        "org": "組織",
+        "student": "學生"
+    }
+}

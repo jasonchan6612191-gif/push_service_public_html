@@ -1,0 +1,13 @@
+{
+    "push": {
+        "title": "Push Notification Settings",
+        "selectRole": "Select Role",
+        "selectLanguage": "Select Language",
+        "all": "All"
+    },
+    "roles": {
+        "teacher": "Teacher",
+        "org": "Organization",
+        "student": "Student"
+    }
+}
