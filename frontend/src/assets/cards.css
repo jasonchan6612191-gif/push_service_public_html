@@ -1,0 +1,75 @@
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card {
+  background-color: #292929;
+  border-radius: 12px;
+  padding: 20px 24px;
+  flex: 0 1 320px;
+  min-width: 280px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  transform: translateY(-10px);
+}
+
+.card-title {
+  font-size: 22px; /* 預設16px加大約2等級 */
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+.card-btn-group {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn {
+  font-size: 20px; /* 加大字體 */
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn.confirm {
+  background-color: #2196f3;
+  box-shadow: 0 2px 6px rgba(33, 150, 243, 0.5);
+}
+
+.btn.confirm:hover {
+  background-color: #1976d2;
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.7);
+}
+
+.btn.error {
+  background-color: #f44336;
+  box-shadow: 0 2px 6px rgba(244, 67, 54, 0.5);
+}
+
+.btn.error:hover {
+  background-color: #d32f2f;
+  box-shadow: 0 4px 12px rgba(211, 47, 47, 0.7);
+}
