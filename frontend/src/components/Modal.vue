@@ -23,40 +23,54 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(40, 40, 40, 0.25);
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 50;
 }
 
 .modal-content {
     background: #fff;
-    padding: 24px;
-    border-radius: 4px;
-    min-width: 320px;
+    padding: 28px;
+    border-radius: 16px;
+    min-width: 360px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10), 0 1.5px 6px rgba(0, 0, 0, 0.10);
 }
 
 .modal-actions {
-    margin-top: 20px;
+    margin-top: 28px;
     display: flex;
-    gap: 10px;
+    gap: 16px;
     justify-content: flex-end;
 }
 
 .btn {
-    padding: 8px 16px;
+    padding: 10px 24px;
+    font-size: 1rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 500;
     cursor: pointer;
+    transition: background 0.18s;
 }
 
 .btn.cancel {
-    background: #eee;
-    color: #333;
+    background: #f4f6f8;
+    color: #1a1a1a;
 }
 
 .btn.confirm {
-    background: #2196f3;
+    background: #2563eb;
     color: #fff;
+}
+
+.btn.confirm:hover {
+    background: #1e40af;
+}
+
+.btn.cancel:hover {
+    background: #e2e8f0;
 }
 </style>
